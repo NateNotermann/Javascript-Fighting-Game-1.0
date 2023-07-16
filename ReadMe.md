@@ -1,7 +1,8 @@
 # Javascript 2D Retro Fighting Game!
 
-This template was made by following a [YouTube Tutorial](https://www.youtube.com/watch?v=vyqbNFMDRGQ&ab_channel=ChrisCourses) by Chris Course. I highly recommend checking out his tutorial and other work. [Chris Course's Website](https://chriscourses.com/courses)         
-[Chris Course's Github](https://github.com/chriscourses/fighting-game)        
+This template was made by following a [YouTube Tutorial](https://www.youtube.com/watch?v=vyqbNFMDRGQ&ab_channel=ChrisCourses) by Chris Courses.         
+I highly recommend checking out his tutorial and other work. [Chris Courses' Website](https://chriscourses.com/courses)         
+[Chris Courses' Github](https://github.com/chriscourses/fighting-game)         
 
 Play the game here: [Finished Demo](https://chriscourses-fighting-game.netlify.app/)            
 
