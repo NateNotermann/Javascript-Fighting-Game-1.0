@@ -1,0 +1,49 @@
+.player1 {
+    background: linear-gradient(90deg,#f4033f, #03a9f4, #3bffff, #f441ee, #f4033f);
+    background-size: 50%;
+    animation-direction: alternate-reverse;
+	animation: p1HealthGradient 4s linear infinite;
+
+}
+.player2 {
+    background: linear-gradient(90deg, #f4033f, #f441ee, #3bffff, #03a9f4, #f4033f);
+    background-size: 50%;
+    animation: p2HealthGradient 4s linear infinite;
+}
+
+@keyframes p1HealthGradient {
+    0% {
+        background-position: 100%, 0;
+    }
+    100% {
+        background-position: 0%, 0;
+    }
+}
+
+@keyframes p2HealthGradient {
+    0% {
+        background-position: 0%, 0;
+    }
+    100% {
+        background-position: 100%, 0;
+    }
+}
+
+
+.glow {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
